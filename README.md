@@ -4,6 +4,7 @@
 
 
 ## Skills acquired & Topics researched
-- Rendering using JaaScript 
-- Add/remove items 
-- Payment modal with compulsory inputs
+- Rendering using JaaScript.
+- Add/remove items.
+- Payment modal with compulsory inputs.
+- Followed [figma design](https://www.figma.com/file/Hdgwo69Dym9vVsxbuPbl0h/Mobile-Restaurant-Menu?node-id=0%3A1) spec.

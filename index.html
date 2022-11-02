@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-text">
+                <h2>Jimmy’s Diner</h2>
+                <h3>The best burgers and pizzas in town.</h3>
+            </div>
+        </header>
+        <main>
+            <div class="menu" id="menu">
+                <!-- MENU ITEMS see => /index.js/renderMenu()-->
+            </div> 
+            <div class="checkout" id="checkout">
+                <!-- CHECKOUT SECTION see => /index.js/renderCheckout() -->
+            </div>
+        </main>
+        <div class="modal-container" id="modal-container">
+            <div class="payment-modal">
+                <h4>Enter card details</h4>
+                <form id="form-el">
+                    <input type="text" placeholder="Enter your name" required id="customer-name">
+                    <input type="text" placeholder="Enter card number" required>
+                    <input type="text" placeholder="Enter CVV" required>
+                    <button class="pay-btn" id="pay-btn" >Pay</button>
+                </form>
+            </div>
+        </div>
+        <div class="order-dertails" id="order-dertails">
+            Thanks, James! Your order is on its way!
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

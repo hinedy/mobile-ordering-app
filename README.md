@@ -1,5 +1,4 @@
-# Monile Ordering App
-
+# Mobile Ordering App
 
 ## Part of Scrimba's [The Frontend Career Path](https://scrimba.com/learn/frontend)
 
